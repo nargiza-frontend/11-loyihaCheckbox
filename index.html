@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Name of Project</title>
+  <title>Checkbox</title>
 
   <!-- STYLES  -->
   <link rel="stylesheet" href="css/normalize.css">
@@ -12,7 +12,36 @@
   <!-- <link rel="stylesheet" href="css/css.min.css"> -->
 </head>
 <body>
-
+<main class="main-content">
+  <div class="container">
+    <form action="https://echo.htmlacademy.ru" method="post"></form>
+      <fieldset>
+        <legend>Qaysi sport turiga qiziqasiz?</legend>
+        <div class="form-inner">
+          <label class="checkbox-label">
+            <input class="checkbox visually-hidden checkbox-ping-pong" type="checkbox" name="ping-pong">
+            <span class="checkbox-control"></span>
+            <span class="checkbox-text">Stol tennisi</span>
+          </label>
+          <label class="checkbox-label">
+            <input class="checkbox visually-hidden checkbox-basketbol" type="checkbox" name="basketbol">
+            <span class="checkbox-control"></span>
+            <span class="checkbox-text">Basketbol</span>
+          </label>
+          <label class="checkbox-label">
+            <input class="checkbox visually-hidden checkbox-volleyball" type="checkbox" name="volleybol">
+            <span class="checkbox-control"></span>
+            <span class="checkbox-text">Valeybol</span>
+          </label>
+          <label class="checkbox-label">
+            <input class="checkbox visually-hidden checkbox-hokkey" type="checkbox" name="hokkey" disabled>
+            <span class="checkbox-control"></span>
+            <span class="checkbox-text">Hokkey</span>
+          </label>
+        </div>
+      </fieldset>
+  </div>
+</main>
 
   <script src="js/main.js"></script>
 </body>
